@@ -1,8 +1,7 @@
 package Behavior.Strategy.Example_1;
 
-public class Professor extends Worker {
+public class Professor extends Staff {
     Professor () {
-        this.speakBehavior = new SopranoSpeak();
         this.workBehavior = new BrainWork();
     }
 }

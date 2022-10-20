@@ -1,23 +1,16 @@
 package Behavior.Strategy.Example_1;
 
-public class Worker {
+public class Staff {
 
     WorkBehavior workBehavior;
-    SpeakBehavior speakBehavior;
 
     void performWork(){
+        System.out.println(getClass());
         workBehavior.work();
-    }
-
-    void performSpeak(){
-        speakBehavior.speak();
     }
 
     public void setWorkBehavior(WorkBehavior workBehavior) {
         this.workBehavior = workBehavior;
     }
 
-    public void setSpeakBehavior(SpeakBehavior speakBehavior) {
-        this.speakBehavior = speakBehavior;
-    }
 }

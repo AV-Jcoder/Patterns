@@ -1,8 +1,7 @@
 package Behavior.Strategy.Example_1;
 
-public class IronMiner extends Worker {
+public class IronMiner extends Staff {
     public IronMiner() {
-        this.speakBehavior = new BassSpeak();
         this.workBehavior = new HandWork();
     }
 }

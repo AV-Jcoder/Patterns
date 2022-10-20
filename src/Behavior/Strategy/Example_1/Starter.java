@@ -1,13 +1,11 @@
 package Behavior.Strategy.Example_1;
 
-public class DayOfWork {
+public class Starter {
     public static void main(String[] args) {
-        Worker professor = new Professor();
-        professor.performSpeak();
+        Staff professor = new Professor();
         professor.performWork();
 
         professor = new IronMiner();
-        professor.performSpeak();
         professor.performWork();
     }
 }
