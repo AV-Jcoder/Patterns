@@ -1,4 +1,4 @@
-package Behavior.Strategy.Example_1;
+package Behavior.Strategy;
 /**
  * Паттерн Стратегия (Strategy) представляет шаблон проектирования,
  * который определяет набор алгоритмов, инкапсулирует каждый из них и
