@@ -1,4 +1,4 @@
-package Strategy;
+package Behavior.Strategy.Example_4_Sports_Men;
 
 class Loader {
     public static void main(String[] args) {
