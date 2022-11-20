@@ -6,4 +6,9 @@ public abstract class Delivery {
     Delivery(String title){
         this.title = title;
     }
+
+    @Override
+    public String toString() {
+        return this.title;
+    }
 }

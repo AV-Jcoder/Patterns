@@ -8,7 +8,7 @@ public class ConcreteDelivFactory extends DeliveryFactory {
             delivery = new AirshipDelivery("Airship delivery is very fast!");
         } else if (delivParams.equals("Quality")) {
             delivery = new RailwayDelivery("Railway delivery is quality and very safety");
-        } else if (delivParams.equals("Cheap")) {
+        } else if (delivParams.equals("Cost")) {
             delivery = new TruckDelivery("Truck delivery is optimal solution");
         } else throw new IllegalArgumentException();
         return delivery;
