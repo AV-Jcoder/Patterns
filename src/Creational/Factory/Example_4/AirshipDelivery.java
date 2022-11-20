@@ -1,7 +1,7 @@
 package Creational.Factory.Example_4;
 
 class AirshipDelivery extends Delivery{
-    AirshipDelivery(String title) {
-        super(title);
+    AirshipDelivery() {
+        super("Airship delivery is very fast!");
     }
 }

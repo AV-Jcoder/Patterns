@@ -5,11 +5,11 @@ public class ConcreteDelivFactory extends DeliveryFactory {
     Delivery createDelivery(String delivParams) {
         Delivery delivery;
         if (delivParams.equals("Fast")) {
-            delivery = new AirshipDelivery("Airship delivery is very fast!");
+            delivery = new AirshipDelivery();
         } else if (delivParams.equals("Quality")) {
-            delivery = new RailwayDelivery("Railway delivery is quality and very safety");
+            delivery = new RailwayDelivery();
         } else if (delivParams.equals("Cost")) {
-            delivery = new TruckDelivery("Truck delivery is optimal solution");
+            delivery = new TruckDelivery();
         } else throw new IllegalArgumentException();
         return delivery;
     }

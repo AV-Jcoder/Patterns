@@ -1,7 +1,7 @@
 package Creational.Factory.Example_4;
 
 class RailwayDelivery extends Delivery {
-    RailwayDelivery(String title) {
-        super(title);
+    RailwayDelivery() {
+        super("Railway delivery is quality and very safety");
     }
 }
